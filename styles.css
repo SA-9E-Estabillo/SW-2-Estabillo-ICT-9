@@ -1,0 +1,26 @@
+        body {
+            background-image: url('https://imageio.forbes.com/specials-images/imageserve/65130a5ead5718f2fc508e5d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds'); /* Correct syntax */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-repeat: no-repeat; /* Prevent tiling */
+            background-position: center; /* Center the image */
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .content {
+           padding: 20px;
+           background-color: lightblue; 
+           border-radius: 5px;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           opacity: 0.9; /* Slight transparency */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
